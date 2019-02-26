@@ -5,15 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid|Luckiest+Guy" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../unit-4-game/assets/images/favicon.ico" type="image/x-icon">
+    <!-- reset and styling -->
     <link rel="stylesheet" href="assets\css\reset.css">
     <link rel="stylesheet" href="assets\css\style.css">
 
-    <title>Grandpa's Meds!</title>
+    <title>Grandpa's Pills</title>
 </head>
 
 <body>
 
+    <section class="header">
+
+        <h1>Help Grandpa Take His Pills!</h1>
+
+        <div class="instructions">
+            <p>Your grandpa is a tricky one and he likes to mix up his pill bottles every day, AND his perscription is <i>always</i> changing. Below grandpa you'll see a number, which is the number you're trying to reach.</p>  
+            
+            <p>Every time you click on one of the four pill bottles, your number will go up by some amount (you better keep track for grandpa's sake!).</p>
+
+            <p>If you give grandpa too many pills, and your number is higher than the number below him, you lose. Better to hit that number right on the money and win then!</p>
+        </div>
+
+    </section>
+
+    <section>
+
+        <figure id="pillbox"></figure>
+        <img id="grandpa" src="assets/images/grandpa-soft.png" alt= "Grandpa!">
+
+        <p id="randomNumber"></p>
+
+    </section>
+
+    <section class="buttons">
+        
+        <button id="orangeBottle"></button>
+        <button id="greenBottle"></button>
+        <button id="blueBottle"></button>
+        <button id="purpleBottle"></button>
+
+        <p id="yourNumber">Your total pills:</p>
+
+    </section>
+
+    <section class="score">
+
+        <p id="wins">Wins:</p>
+        <p id="losses">Losses:</p>
+
+    </section>
+
+
+    <!-- link to my javascript and the jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets\javascript\game.js"></script>
 </body>
 </html>

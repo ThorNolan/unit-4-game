@@ -1,9 +1,9 @@
-Grandpa's Meds!
+Grandpa's Pills
 ============================================
 A "crystals collector" style game that I made using HTML and CSS to make and style the content of the page, and Javascript for my game process along with jQuery to dynamically update elements on the page.  
 
 ## How to Play
-The number displayed underneath grandpa is randomly selected each round, and you need to get to it by clicking on the different pill bottles. The trick is, each pill bottle will add a different number to your score, and this changes every round. Try to give grandpa just the right amount, but not too much, or you (and grandpa) lose!
+The number displayed underneath grandpa is randomly selected each round, and you need to get to that exact number by clicking on the different pill bottles. The trick is, each pill bottle will add a different number to your score, and this number changes every round. Try to give grandpa just the right amount, but not too much, or you (and grandpa) lose! 
 
 
 ### Image Sources: 

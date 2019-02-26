@@ -1,0 +1,42 @@
+/* font-family: 'Luckiest Guy', cursive; */
+/* font-family: 'Londrina Solid', cursive; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 22px;
+    color: black;
+    background-image: url(../images/ignasi_pattern_s/ignasi_pattern_s.png);
+}
+
+#pillbox {
+    position: static;
+    margin: auto;
+    background-color: dodgerblue;
+    width: 275px;
+    height: 300px;
+    border-radius: 7%;
+    z-index: 2;
+}
+
+.header {
+    margin:auto;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+#grandpa {
+    width: 250px;
+    margin: auto;
+    height: auto;
+    z-index: 0;
+}
+
+.instructions {
+    font-size: 20px;
+}
