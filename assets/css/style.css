@@ -12,8 +12,20 @@ body {
     background-image: url(../images/ignasi_pattern_s/ignasi_pattern_s.png);
 }
 
+.header {
+    margin:auto;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: 'Luckiest Guy', cursive;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
 #pillbox {
-    position: static;
+    position: relative;
     margin: auto;
     background-color: dodgerblue;
     width: 275px;
@@ -22,21 +34,56 @@ body {
     z-index: 2;
 }
 
-.header {
-    margin:auto;
-}
-
-h1 {
-    font-size: 34px;
-}
-
 #grandpa {
+    position: absolute;
     width: 250px;
-    margin: auto;
     height: auto;
-    z-index: 0;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    z-index: 3;
 }
 
 .instructions {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.buttons {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: dodgerblue;
+    border-radius: 5%;
+    border-color: dodgerblue;
+    margin: auto;
+}
+
+#orangeBottle {
+    background: url(../images/orange-bottle.png) no-repeat;
+    background-size: 95%;
+    width: 150px;
+    height: 150px;
+}
+
+#greenBottle {
+    background: url(../images/green-bottle.png) no-repeat;
+    background-size: 95%;
+    width: 150px;
+    height: 150px;
+}
+
+#blueBottle {
+    background: url(../images/blue-bottle.png) no-repeat;
+    background-size: 95%;
+    width: 150px;
+    height: 150px;
+}
+
+#purpleBottle {
+    background: url(../images/purple-bottle.png) no-repeat;
+    background-size: 95%;
+    width: 150px;
+    height: 150px;
 }
