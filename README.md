@@ -2,7 +2,7 @@ Grandpa's Pills
 ============================================
 ![gif of Homer Simpson](https://media.giphy.com/media/3orieZ9wFdVEggJu1O/giphy.gif)
 
-A "crystals collector" style game that I made using HTML and CSS to make and style the content of the page,  Javascript to create my game functionality, as well as jQuery to dynamically update elements on the page.  
+A "crystals collector" style game that I made! I used HTML and CSS to make and style the content of the page, Javascript to create my game functionality, and the jQuery library to dynamically update elements on the page. I also use a few css animations from the animate.css CDN.   
 
 ## How to Play
 The number displayed next to grandpa ("grandpa's prescription") is randomly selected each round, and you need to get to that exact number ("your total pills") by clicking on the different pill bottles. The trick is, each pill bottle will add a different number to your score, and this number changes every round. Try to give grandpa just the right amount, but not too much, or you (and grandpa) lose! 
