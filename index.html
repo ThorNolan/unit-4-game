@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Londrina+Solid|Luckiest+Guy" rel="stylesheet">
     <!-- favicon -->
     <link rel="shortcut icon" href="../unit-4-game/assets/images/favicon.ico" type="image/x-icon">
+    <!-- animate css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- reset and styling -->
     <link rel="stylesheet" href="assets\css\reset.css">
     <link rel="stylesheet" href="assets\css\style.css">
@@ -20,36 +22,42 @@
 
     <section class="header">
 
-        <h1>Help Grandpa Take His Pills!</h1>
+        <h1 class="animated bounceIn slow">Help Grandpa Take His Pills!</h1>
 
         <div class="instructions">
             <p>Your grandpa is a tricky one and he likes to mix up his pill bottles every day, and his prescription is <i>always</i> changing. Below grandpa you'll see a number, which is the number you're trying to reach.</p>  
             
             <p>Every time you click on one of the four pill bottles, your total pills will go up by some amount (you better be keeping track for grandpa's sake!).</p>
 
-            <p>If you give grandpa too many pills, and your number is higher than the number below him, you lose. Better hit that number right on the money and win then!</p>
+            <p>If you give grandpa too many pills, and your number is higher than his prescription, you lose. Better hit that number right on the money and win then!</p>
         </div>
 
     </section>
 
     <section class="main">
 
+        <figure id="randomBox">
+            <p id="prescription">Grandpa's Prescription:</p>
+            <p id="randomNumber"></p>
+        </figure>    
+
         <figure id="pillbox">
-            <img id="grandpa" src="assets/images/grandpa-soft.png" alt= "Grandpa!">
+            <img id="grandpa" class="animated tada slow" src="assets/images/grandpa-soft.png" alt= "Grandpa!">
         </figure>
 
-        <p id="randomNumber"></p>
+        <figure id="guessesBox">
+            <p id="totalPills">Your total pills:</p>
+            <p id="yourNumber"></p>
+        </figure>
 
     </section>
 
     <section class="buttons">
         
-        <button id="orangeBottle"></button>
-        <button id="greenBottle"></button>
-        <button id="blueBottle"></button>
-        <button id="purpleBottle"></button>
-
-        <p id="yourNumber">Your total pills:</p>
+        <button id="orangeBottle" class="animated wobble fast"></button>
+        <button id="greenBottle" class="animated wobble fast"></button>
+        <button id="blueBottle" class="animated wobble fast"></button>
+        <button id="purpleBottle" class="animated wobble fast"></button>
 
     </section>
 

@@ -1,0 +1,1 @@
+// on click animations: add the class "wobble" using jQuery
