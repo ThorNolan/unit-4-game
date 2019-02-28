@@ -113,7 +113,7 @@ h1 {
 .buttons {
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 26.5%;
+    padding-left: 25%;
     padding-right: 25%;
     color: dodgerblue;
     border-radius: 7%;
@@ -125,9 +125,12 @@ h1 {
 }
 
 .buttons button {
-    margin-right: 12px;
-    margin-left: 12px;
+    margin-right: 18px;
+    margin-left: 18px;
 }
+
+button:focus { outline: none; }
+
 
 #orangeBottle {
     background: url(../images/orange-bottle.png) no-repeat;
@@ -172,4 +175,9 @@ h1 {
     text-align: center;
     background-color: dodgerblue; 
     line-height: 2;
+}
+
+.score p {
+    display: inline-block;
+    padding: 12px;
 }
